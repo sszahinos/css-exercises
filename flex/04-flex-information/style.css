@@ -24,3 +24,41 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+#plants {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.items {
+  display: inherit;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
+  height: auto;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+/* solution
+
+  .title {
+    margin-bottom: 32px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+  }
+
+  .info {
+    max-width: 200px;
+  }
+*/
